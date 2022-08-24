@@ -103,7 +103,7 @@ header.shadow {
 .home-text h3{
   width: 0ch;
   overflow: hidden;
-  font-size: 30px;
+  font-size: 28px;
   color: black;
   white-space: nowrap;
   animation: text 4s steps(22) infinite;
