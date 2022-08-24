@@ -176,8 +176,8 @@ header.shadow {
   margin-top: 30px;
 }
 .cv-btn:hover{
-  background: lime;
-  color: white;
+  background: rgb(0, 245, 245);
+  color: black;
 }
 
 .services-content {
@@ -374,28 +374,30 @@ button:hover{
   align-items: center;
   text-align: center;
   border-radius: 0.5rem;
-  border-bottom: 2px solid #033a80;
+  background: #02225a;
   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
   .services-box:hover{
- background-color: #02225a;
+ background-color: #fff;
 }
 
   .services-box h3 {
   font-size: 1rem;
   font-weight: 600;
   margin: 0.7rem 0 0.4rem;
+  color: #fff;
 }
   .services-box:hover h3{
-  color: #fff;
+  color: #033a80;
+  font-weight: 600;
 }
   .services-box .bx {
   padding-top: 2rem;
   font-size: 54px;
-  color: #033a80;
+  color: #22cf91;
 }
   .services-box:hover .bx{
-  color: #22cf91;
+  color: #033a80;
 }
   .services-box a {
   color: #033a80;
