@@ -1,3 +1,5 @@
+<html>
+<body>
 <?php
 $name = $_POST["name"];
 $email = $_POST["email"];
@@ -12,3 +14,5 @@ $txt = "Name = ".$name."/r/n Email = ".$email."/r/n Message = ".$message;
 
 mail($to,$subject,$txt,$header);
 ?>
+</body>
+</html>
